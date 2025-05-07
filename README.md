@@ -21,7 +21,6 @@ Label: Binary label (0: Non-harassing, 1: Harassing).
 Type: Harassment type (e.g., Ethnicity, Sexual, Religion, Troll, Threat, Vocational, Political).
 
 # Results
-Metric            Score
 Accuracy	        94.63%
 Precision	        94.98%
 Recall	          94.63%
