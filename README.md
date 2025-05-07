@@ -27,7 +27,6 @@ Recall	          94.63%
 F1-Score	        94.68%
 
 # Model Architecture
-# We use a hybrid NLP architecture:
 
 RoBERTa for contextualized text embeddings.
 
@@ -47,7 +46,7 @@ To further enhance the effectiveness and real-world applicability of our cyberbu
 # Network Simulation with Mininet & POX
 We plan to simulate real-time detection and mitigation of cyberbullying in a Software-Defined Networking (SDN) environment using tools like Mininet and POX controller. This would allow us to test how our classifier can be deployed in a network to take automated moderation actions.
 
-🔧 How It Works:
+How It Works:
 Mininet is used to emulate a realistic network with multiple users, simulating chat applications or social media traffic.
 POX, a Python-based SDN controller, will act as a decision-making agent that receives messages or posts from users.
 The trained cyberbullying classifier will be integrated with the POX controller to:
